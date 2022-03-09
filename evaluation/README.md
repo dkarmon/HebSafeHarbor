@@ -1,0 +1,2 @@
+# NER Model Evaluation
+The algorithm is based on [David Batista's](https://www.davidsbatista.net/blog/2018/05/09/Named_Entity_Evaluation/) Named Entity Evaluation as in SemEval 2013 task 9.1 [repository](https://github.com/davidsbatista/NER-Evaluation)

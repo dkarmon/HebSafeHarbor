@@ -198,10 +198,10 @@ def main():
     idx_to_fname, annotations_list,txt_list = load_annotated_documents(folders)
 
     doc_list = [{"text": txt} for txt in txt_list]
-    predicted_entities = hebrew_phi(doc_list[:5])
+    predicted_entities = hebrew_phi(doc_list)
     
 
-    evaluator = HebSafeHarborEvaluator(annotations_list[:5],predicted_entities,txt_list[:5],tags,annot_entity_mapping,sh_entity_mapping)
+    evaluator = HebSafeHarborEvaluator(annotations_list,predicted_entities,txt_list,tags,annot_entity_mapping,sh_entity_mapping)
     metrics = evaluator.evaluate()
 
     entities_df = dict_to_dataframe(metrics[2],txt_list)

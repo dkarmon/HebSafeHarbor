@@ -3,7 +3,7 @@ The algorithm is based on [David Batista's](https://www.davidsbatista.net/blog/2
 
 # Annotated Files Structure
 The structure of the annotated files is assumed to be in the following structure:
-
+```
 |-- annotated_files
 |   |-- doc1
 |   |   |-- file_name1.ann
@@ -13,7 +13,7 @@ The structure of the annotated files is assumed to be in the following structure
 |   |   |-- file_name2.ann
 |   |   |-- file_name2.json
 |   |   |-- file_name2.txt
-
+```
 etc. the folders and file names could be anything but it is important to maintain this structure.
 
 # To Run The Code:

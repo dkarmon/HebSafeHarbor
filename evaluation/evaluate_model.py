@@ -19,7 +19,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.CRITICAL)
 
 ANNOTATION_DATE = "08-03-2022"
-FOLDERS_PATH = f"/Users/ayabellicha/Documents/phi_evaluation_set/phi_annotations_{ANNOTATION_DATE}"
+FOLDERS_PATH = f"../../phi_evaluation_set/phi_annotations_{ANNOTATION_DATE}"
 SAVE_TO_FILE = True
 
 def fb_score(precision:float,recall:float,beta:int=2)->float:

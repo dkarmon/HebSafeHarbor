@@ -18,5 +18,6 @@ etc. the folders and file names could be anything but it is important to maintai
 
 # To Run The Code:
 1. Go to the `evaluation` folder
-2. in `evaluate_model.py` set `FOLDERS_PATH` to point to the folder with the annotated files
-3. run `python evaluate_model.py`
+2. run `pip install -r requirements-eval.txt`
+3. in `evaluate_model.py` set `FOLDERS_PATH` to point to the folder with the annotated files
+4. run `python evaluate_model.py`
